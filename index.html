@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechBridge Nexus — AI-powered IT & SaaS for SMEs in MENA</title>
+  <meta name="description" content="Deploy, integrate, and scale cloud tools fast. Managed IT, SaaS reselling, data analytics, and AI assistants for SMEs, manufacturers, and clinics across Egypt & MENA." />
+  <link rel="icon" href="/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Helvetica Neue, Arial, Noto Sans; }
+  </style>
+</head>
+<body class="bg-white text-slate-800">
+  <!-- Language Toggle -->
+  <div class="bg-slate-100 text-right pr-6 py-2 text-sm">
+    <a href="/" class="mr-4 font-medium">English</a>
+    <a href="/ar.html" class="font-medium">العربية</a>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2">
+        <span class="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-slate-900 text-white font-bold">TN</span>
+        <span class="font-semibold text-lg">TechBridge Nexus</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm">
+        <a href="#services" class="hover:text-slate-900">Services</a>
+        <a href="#why" class="hover:text-slate-900">Why Us</a>
+        <a href="#pricing" class="hover:text-slate-900">Pricing</a>
+        <a href="#contact" class="hover:text-slate-900">Contact</a>
+        <a href="#contact" class="inline-flex items-center rounded-xl bg-slate-900 text-white px-4 py-2 font-medium">Get a Proposal</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="mt-5 text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
+          AI & SaaS Solutions Empowering <span class="text-indigo-600">SMEs in MENA</span>
+        </h1>
+        <p class="mt-5 text-lg text-slate-600">
+          We help you deploy and manage Microsoft 365, Google Workspace, Odoo/ERP, secure email & DNS, analytics dashboards (Power BI/Tableau), and AI assistants.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#contact" class="inline-flex items-center rounded-xl bg-slate-900 text-white px-5 py-3 font-medium">Get Free Proposal</a>
+          <a href="#calendly" class="inline-flex items-center rounded-xl border border-slate-300 px-5 py-3 font-medium">Book 15-min Call</a>
+        </div>
+      </div>
+      <div id="calendly" class="relative">
+        <div class="rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+          <iframe src="https://calendly.com/techbridgenexus/intro-call" width="100%" height="500" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-white font-bold">TN</span>
+        <span class="text-sm text-slate-600">© <span id="y"></span> TechBridge Nexus. All rights reserved.</span>
+      </div>
+      <nav class="flex items-center gap-6 text-sm text-slate-600">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/terms.html">Terms</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
