@@ -1,0 +1,6 @@
+# robots.txt for https://techbridgenexus.com/
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://techbridgenexus.com/sitemap.xml
